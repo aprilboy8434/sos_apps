@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key>
+    <string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleName</key>
+    <string>OneTapSOS</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+
+    <key>LSApplicationQueriesSchemes</key>
+    <array>
+        <string>whatsapp</string>
+        <string>line</string>
+        <string>lineauth</string>
+        <string>tg</string>
+        <string>telegram</string>
+        <string>sms</string>
+        <string>mailto</string>
+    </array>
+
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Used to include your current location in SOS messages.</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Used to scan QR codes to import SOS destinations.</string>
+
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>onetapsos</string>
+            </array>
+        </dict>
+    </array>
+</dict>
+</plist>
